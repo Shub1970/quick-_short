@@ -7,7 +7,7 @@ def quick(array,first,last):  #first,and last are the index value
             key=array[p]
             array[p]=array[q]
             array[q]=key
-    array[last]=array[q+1]
+    array[last]=array[q+1]                         #i have a very big problem with index and length in python
     array[q+1]=last_key
     return q+1
 def quick_sort(array,first,last):
